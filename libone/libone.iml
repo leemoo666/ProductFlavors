@@ -8,11 +8,11 @@
     </facet>
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="project_oneDebug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleProject_oneDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileProject_oneDebugSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="project_oneHuaweiDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleProject_oneHuaweiDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileProject_oneHuaweiDebugSources" />
         <afterSyncTasks>
-          <task>generateProject_oneDebugSources</task>
+          <task>generateProject_oneHuaweiDebugSources</task>
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
@@ -24,46 +24,67 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/build/intermediates/classes/project_one/debug" />
-    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/project_one/debug" />
+    <output url="file://$MODULE_DIR$/build/intermediates/classes/project_oneHuawei/debug" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/project_oneHuawei/debug" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/project_one/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/project_one/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/project_one/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/project_one/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/project_one/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/project_one/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/project_one/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/project_oneDebug/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/project_oneDebug/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/project_oneDebug/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/project_oneDebug/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/project_oneDebug/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/project_oneDebug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/project_oneDebug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/project_one/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/project_one/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/project_one/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/project_one/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/project_one/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/project_one/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/project_one/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/project_one/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/project_oneHuawei/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/project_oneHuawei/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/project_oneHuawei/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/project_oneHuawei/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/project_oneHuawei/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/project_oneHuawei/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/project_oneHuawei/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuaweiDebug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuaweiDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuaweiDebug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuaweiDebug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuaweiDebug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuaweiDebug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuaweiDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuawei/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuawei/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuawei/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuawei/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuawei/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuawei/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/project_oneHuawei/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/project_oneHuawei/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/project_oneHuawei/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/project_oneHuawei/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/project_oneHuawei/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/project_oneHuawei/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/project_oneHuawei/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/project_oneHuawei/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuaweiDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuaweiDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuaweiDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuaweiDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuaweiDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuaweiDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuaweiDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuawei/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuawei/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuawei/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuawei/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuawei/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuawei/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_oneHuawei/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/project_oneHuawei/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuaweiDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuaweiDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuaweiDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuaweiDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuaweiDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuaweiDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuaweiDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuawei/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuawei/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuawei/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuawei/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuawei/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuawei/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testProject_oneHuawei/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/project_one/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/project_one/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/project_one/assets" type="java-resource" />
@@ -85,6 +106,27 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_one/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_one/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestProject_one/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/huawei/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/huawei/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/huawei/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/huawei/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/huawei/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/huawei/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/huawei/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testHuawei/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testHuawei/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testHuawei/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testHuawei/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testHuawei/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testHuawei/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testHuawei/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestHuawei/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestHuawei/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestHuawei/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestHuawei/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestHuawei/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestHuawei/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestHuawei/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />

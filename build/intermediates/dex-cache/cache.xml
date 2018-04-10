@@ -3,43 +3,123 @@
 
     <item
         is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_one/release/classes.jar"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_oneHuawei/release/classes.jar"
         jumboMode="false"
         min-sdk-version="15"
         optimize="true"
         revision="26.0.2"
-        sha1="359183e70e03ace1a8bba24f1e3309d9c81fe6f2">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_one/release/17.jar" />
+        sha1="0ccca7905a221cbf06fcd3c4640de49555100f81">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_oneHuawei/release/16.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_two/release/classes.jar"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_twoWandoujia/release/classes.jar"
         jumboMode="false"
         min-sdk-version="15"
         optimize="true"
         revision="26.0.2"
-        sha1="d2c0020e9e8387ccf561d9319c7fdd95d8187e04">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_two/release/17.jar" />
+        sha1="6d6d2bf39772b0d81499a31fa8d3574a54fada56">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_twoWandoujia/release/17.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_two/release/classes.jar"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_oneHuawei/release/classes.jar"
         jumboMode="false"
         min-sdk-version="15"
         optimize="true"
         revision="26.0.2"
-        sha1="aa01860e4fa04f851f52dfccd0880438f4091cc7">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_two/release/16.jar" />
+        sha1="b3fa0d2f65c385fd14aa7edda2e9f301498c38bd">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_oneHuawei/release/17.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_one/release/classes.jar"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_twoHuawei/release/classes.jar"
         jumboMode="false"
         min-sdk-version="15"
         optimize="true"
         revision="26.0.2"
-        sha1="f58b9753a7f7eb71829dbff503519af6f2891866">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_one/release/16.jar" />
+        sha1="52136641ab1e87fc8122ca32a1db53454b140c0f">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_twoHuawei/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_twoYingyongbao/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="300e08d40ae857e5bdc18b948f355f815a9bbb6e">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_twoYingyongbao/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_twoYingyongbao/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0e770f93088888e08cd65a777f08f143cb77c01a">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_twoYingyongbao/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_oneWandoujia/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="060468579e25ff00547589e09d684ef7af1f93ed">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_oneWandoujia/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_oneYingyongbao/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d841b425dcfc439ceccb10bdd76ab245e9ffb07f">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_oneYingyongbao/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_oneYingyongbao/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d5c2421878facc03e3e872d8bbf5d5c91b5797a6">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_oneYingyongbao/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_oneWandoujia/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="59ca0da19a9f2e636c313aab1cf2cfc9bb628623">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_oneWandoujia/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_twoWandoujia/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0b3c0f756d731357209c3c73d17e156860fde216">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_twoWandoujia/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_twoHuawei/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="12fafcbd2d20bbe0d7ddac899b1c5ae23a55ef26">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_twoHuawei/release/16.jar" />
     </item>
 
 </items>

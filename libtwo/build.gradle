@@ -10,7 +10,7 @@ android {
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
-        flavorDimensions "versionCode"
+        flavorDimensions("money", "channel") //纬度    money:free,vip     channel:baidu，xiaomi，huawei
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
@@ -36,10 +36,23 @@ android {
     productFlavors {
         //不同的应用
         project_one {
-
+            dimension "money"
         }
 
         project_two {
+            dimension "money"
+        }
+
+        wandoujia {
+            dimension "channel"
+        }
+
+        yingyongbao {
+            dimension "channel"
+        }
+
+        huawei {
+            dimension "channel"
         }
     }
 
