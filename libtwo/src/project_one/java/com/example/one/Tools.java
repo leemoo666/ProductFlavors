@@ -7,7 +7,7 @@ import android.util.Log;
  */
 
 public class Tools {
-    public static void sayHello(){
-        Log.i("lxm","project_one hello");
+    public static String sayHello(){
+        return"libTwo project_one hello";
     }
 }

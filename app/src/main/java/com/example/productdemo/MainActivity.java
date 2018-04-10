@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.example.one.Tools;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView tvMain = findViewById(R.id.tvMain);
-        tvMain.setText(BuildConfig.BASE_API_URL);
+        tvMain.setText(BuildConfig.BASE_API_URL + "...." + Tools.sayHello());
 //        Log.i("lxm","base_url = "+BuildConfig.BASE_API_URL);
     }
 }
