@@ -3,8 +3,6 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 26
 
-
-
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 26
@@ -15,6 +13,13 @@ android {
 
     }
 
+    sourceSets {
+        main {
+//            java.srcDirs = ['src/main/java', 'src/project_one/java', 'src/project_two/java']
+            java.srcDirs = ['src/project_two/java']
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -22,13 +27,26 @@ android {
         }
     }
 
+//    publishNonDefault true
+//    productFlavors {
+//        //不同的应用
+//        project_one {
+//
+//        }
+//
+//        project_two {
+//        }
+//    }
+
 }
+
+//configurations {
+//    project_one
+//    project_two
+//}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     implementation 'com.android.support:appcompat-v7:26.1.0'
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }

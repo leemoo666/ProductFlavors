@@ -15,10 +15,27 @@ android {
 
     }
 
+    sourceSets {
+        main {
+//            java.srcDirs = ['src/main/java', 'src/project_one/java', 'src/project_two/java']
+            java.srcDirs = ['src/project_two/java']
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    publishNonDefault true
+    productFlavors {
+        //不同的应用
+        project_one {
+
+        }
+
+        project_two {
         }
     }
 
