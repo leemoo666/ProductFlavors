@@ -3,156 +3,43 @@
 
     <item
         is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/ProductFlavors/libtwo/unspecified/project_oneRelease/jars/classes.jar"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_one/release/classes.jar"
         jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="26.0.0"
-        sha1="4381891ddbc7c60ee096bc6b048fa93506a182a5">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/libtwo-unspecified-project_oneRelease_79ca9abb65bc4188bd72de1b08e6589da87f8b15.jar" />
+        revision="26.0.2"
+        sha1="359183e70e03ace1a8bba24f1e3309d9c81fe6f2">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_one/release/17.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/lixiaoming/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libtwo/build/intermediates/intermediate-jars/project_two/release/classes.jar"
         jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="26.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/constraint-layout-solver-1.0.2_f0601baf75bde01b33ec6eeee08e9dc1c0d1816b.jar" />
+        revision="26.0.2"
+        sha1="d2c0020e9e8387ccf561d9319c7fdd95d8187e04">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_two/release/17.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/lixiaoming/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_two/release/classes.jar"
         jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="26.0.0"
-        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/common-1.0.0_76813963d2508b66a1405df72dbc514cf41ae091.jar" />
+        revision="26.0.2"
+        sha1="aa01860e4fa04f851f52dfccd0880438f4091cc7">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_two/release/16.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.1.0/jars/classes.jar"
+        jar="/Users/lixiaoming/tmp/ProductFlavors/libone/build/intermediates/intermediate-jars/project_one/release/classes.jar"
         jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="26.0.0"
-        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support-support-vector-drawable-26.1.0_33338474d1096f27152aa530bccd8db18310056d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support-support-fragment-26.1.0_eb0e72df4ac8b8deecf979651b6c2c3c14603ff7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support.constraint-constraint-layout-1.0.2_6cb437a6dd11b2e6be370bac07c7f9f6b6a9b39f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/ProductFlavors/libtwo/unspecified/project_twoRelease/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="c854b3896df7ee3985f322612f148c86889fae1c">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_two/debug/libtwo-unspecified-project_twoRelease_ecc8ff1c0f06b805d5f74e64b786bd07336f516c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/support-annotations-26.1.0_704b56212d37bf7e6fc2aaba6e0ba368d425a23f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support-support-media-compat-26.1.0_357e6539e99d5023dfa16a8dec66e2ec725ee441.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support-appcompat-v7-26.1.0_5b163be39ba2005cf17dfced307b98ffca726cb0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="508f50705b4fde51a16259f29c854201a3044516">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support-support-core-ui-26.1.0_2bc68b3e83ab38c8111740d509d226af7bbf715b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support-animated-vector-drawable-26.1.0_46439c99b160e41db29cf6d0925c5830ceff81db.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support-support-v4-26.1.0_2615d8fde69e24c92e28286d911aa122e958285b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/common-1.0.0_8b78c64a8a3b70bc54ce65615610bf5707e87f5a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support-support-core-utils-26.1.0_5837fe93f65e28500924af60b181ee460e6fdde2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/android.arch.lifecycle-runtime-1.0.0_d350d77a3345a012ba1cf333f7840b08e5f1d4aa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
-        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/pre-dexed/project_one/debug/com.android.support-support-compat-26.1.0_817a32d4d713e3de5d510fa2366478939617d8fd.jar" />
+        revision="26.0.2"
+        sha1="f58b9753a7f7eb71829dbff503519af6f2891866">
+        <dex dex="/Users/lixiaoming/tmp/ProductFlavors/app/build/intermediates/transforms/preDex/project_one/release/16.jar" />
     </item>
 
 </items>

@@ -2,14 +2,14 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.0"
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
-
+        flavorDimensions "versionCode"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
@@ -17,7 +17,7 @@ android {
     sourceSets {
         main {
 //            java.srcDirs = ['src/main/java', 'src/project_one/java', 'src/project_two/java']
-            java.srcDirs = ['src/project_two/java']
+//            java.srcDirs = ['src/project_two/java']
         }
     }
 
@@ -26,28 +26,27 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
     }
 
-//    publishNonDefault true
-//    productFlavors {
-//        //不同的应用
-//        project_one {
-//
-//        }
-//
-//        project_two {
-//        }
-//    }
+    publishNonDefault true
+    productFlavors {
+        //不同的应用
+        project_one {
+
+        }
+
+        project_two {
+        }
+    }
 
 }
 
-//configurations {
-//    project_one
-//    project_two
-//}
-
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    testCompile 'junit:junit:4.12'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    testImplementation 'junit:junit:4.12'
 }

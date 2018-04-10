@@ -8,6 +8,6 @@ import android.util.Log;
 
 public class Tools {
     public static String sayHello() {
-        return"libTwo project_two hello";
+        return".....libTwo project_two";
     }
 }

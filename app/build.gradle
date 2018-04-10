@@ -2,20 +2,20 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.0"
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.example.productdemo"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
-//        flavorDimensions "versionCode"
+        flavorDimensions "versionCode"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     sourceSets {
         main {
-            java.srcDirs = ['src/main/java','src/project_one/java', 'src/project_two/java']
+            java.srcDirs = ['src/main/java', 'src/project_one/java', 'src/project_two/java']
         }
     }
 
@@ -73,21 +73,14 @@ android {
     }
 }
 
-configurations {
-    project_oneCompile
-    project_twoCompile
-}
-
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
 
-//    implementation project(':libone')
-//    implementation project(':libtwo')
 
-    project_oneCompile project(path: ':libtwo', configuration: 'project_oneRelease')
-    project_twoCompile project(path: ':libtwo', configuration: 'project_twoRelease')
+    implementation project(path:':libone')
+    implementation project(path:':libtwo')
 
 }
